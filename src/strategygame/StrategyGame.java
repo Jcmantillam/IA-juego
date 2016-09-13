@@ -6,8 +6,7 @@
 package strategygame;
 
 import UI.mainFrame;
-import java.awt.Frame;
-import javax.swing.JPanel;
+
 
 /**
  *
@@ -20,10 +19,7 @@ public class StrategyGame {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        mainFrame mframe = new mainFrame();
-        mframe.setDefaultCloseOperation(mframe.EXIT_ON_CLOSE);
-        mframe.setLocationRelativeTo(mframe);
-        mframe.setVisible(true);
+        mainFrame main = new mainFrame("Strategy Game");
     }
     
 }
